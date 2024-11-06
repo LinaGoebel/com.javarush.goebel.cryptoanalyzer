@@ -1,0 +1,13 @@
+package service;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Frequency {
+  public static final Map<Character, Double> RUSSIAN_FREQUENCY = createRussianFrequency();
+
+  private static Map<Character, Double> createRussianFrequency() {
+    Map<Character, Double> frequencyMap = new TreeMap<>();
+    char[] c = 
+  }
+}
